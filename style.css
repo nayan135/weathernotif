@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    overflow: hidden;
+}
+
+main{
+    left:0;
+    position:absolute;
+    margin-left:25px;
+}
+
+.card{
+    background:#000000;
+    color:smokewhite;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    left: 0;
+}
+
+.search{
+    dsiplay: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-right:9px;
+    position: relative;
+}
+
+ button {
+    margin: 1.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 2em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+    position: relative;
+  }
+  
+  button:hover {
+   background: #7c7c7c6b;
+  }
+  
+
+  h.temp{
+    margin: 0;
+    position: relative;
+
+  }
